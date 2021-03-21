@@ -1,5 +1,4 @@
 # Rossmann_sales_prediction
-# Em contrução... EXEMPLO:
 
 ## Problema:
 #####
@@ -41,15 +40,54 @@ No caso deste projeto a solicitação da previsão de vendas tinha como motivaç
 ##### Estas hipóteses servem de base para a análise exploratória.
 
 ## 4. Filtragem das linhas.
-##### Neste passo realizo uma filtragem das linhas que não possuem dados relevantes para o problemas.
+##### Neste passo realizo uma filtragem das linhas que não possuem dados relevantes para o problema.
 Exemplo: Dia em que as lojas estavam fechadas.
 
 ## 5. Análise exploratória dos dados
+##### Neste passo realizo uma análise (univariada e bivariada) mais profunda nos dados das farmácias.
+##### Ganhei mais experiência sobre o negócio da empresa; gerei insights e percebi variáveis que são importantes para o modelo.
+
+#### Análise univariada:
+##### Na análise univariada identifico as distribuições dos dados e alguns padrões.
+
+[COLOCAR IMAGEM DA RESPONSE VARIABLE]
+##### Neste gráfico entendo como está a distribuição das vendas (variável resposta).
+
+[COLOCAR IMAGEM DOS GRÁFICOS NUMÉRICOS]
+##### Nestes gráficos identifico alguns padrões nos dados.
+
+[COLOCAR IMAGEM DOS GRÁFICOS CATEGÓRICOS]
+##### Nestes gráficos analiso as variáveis categóricas do meu dataset e suas distribuições.
+
+#### Análise bivariada:
+##### Na análise bivariada valido ou descarto as hipóteses que foram criadas no passo 3
+
+Das 12 hipóteses criadas para esse projeto, segue abaixo três hipóteses validadas ou descartadas como exemplo:
+
+H1 - Lojas com maior sortimentos deveriam vender mais.
+FALSA - Lojas com MAIOR SORTIMENTO vendem MENOS.
+[COLOCAR IMAGEM DOS GRÁFICOS DE ANÁLISE DA HIPÓTESE 1]
 
 
-Step 01. Data Description: Step 02. Feature Engineering: Step 03. Data Filtering: Step 04. Exploratory Data Analysis: Step 05. Data Preparation: Step 06. Feature selection: Step 07. Machine learning modelling: Step 08. Model-to-business: Step 09. Deploy Model to Production: 
 
-10 steps: Business Understanding, Data Description, Feature Engineering, Filtering Variables, Exploratory Data Analysis, Data Preparation, Feature Selection, Machine Learning Modeling, Hyperparameters Fine Tuning, Translating and Interpreting the Error, and the Model Deployment.
+
+H2 - Lojas com competidores mais próximos deveriam vender menos.
+FALSA - Lojas com COMPETIDORES MAIS PRÓXIMOS vendem MAIS.
+[COLOCAR IMAGEM DOS GRÁFICOS DE ANÁLISE DA HIPÓTESE 2]
+
+
+
+H
+[COLOCAR IMAGEM DOS GRÁFICOS DE ANÁLISE DA HIPÓTESE 3]
+
+
+
+
+**Step 01. Data Description:  Feature Engineering:  Data Filtering:**
+Exploratory Data Analysis: Data Preparation: Feature selection: Machine learning modelling: Model-to-business: Deploy Model to Production: 
+
+**10 steps: Business Understanding, Data Description, Feature Engineering, Filtering Variables,**
+Exploratory Data Analysis, Data Preparation, Feature Selection, Machine Learning Modeling, Hyperparameters Fine Tuning, Translating and Interpreting the Error, and the Model Deployment.
 
 
 
